@@ -1,5 +1,11 @@
+The authors create the **RGB-D Salient Object Detection Dataset** (RGB-D SOD), which aims to detect and segment objects that visually attract the most human interest from a pair of color and depth images. The dataset lies between Object Detection and Semantic Segmentation. Each sample is a pair of color (RGB) and depth images.
 
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
+## Salient object detection problem
 
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+Salient object detection, mimicking human visual perception to identify the most prominent objects within a scene, has found extensive application across diverse computer vision tasks. With the emergence of depth sensors, capturing depth maps has become more accessible, thereby providing supplementary spatial data that can significantly enhance the accuracy of salient object detection. Despite the development of numerous RGB-D based models for salient object detection boasting promising results in recent years, there persists a gap in understanding the intricacies of these models and the inherent challenges within this field.
+
+Salient object detection serves the purpose of identifying the most visually striking objects within a given scene, playing a pivotal role across a spectrum of real-world applications. These applications span stereo matching, image comprehension, co-saliency detection, action recognition, video segmentation, semantic segmentation, medical imaging, object tracking, person re-identification, camouflaged object detection, and image retrieval, among others. Despite notable advancements in salient object detection in recent years, challenges persist, particularly when confronted with complex backgrounds or fluctuating lighting conditions within scenes. One effective strategy to address these challenges involves leveraging depth maps, which offer supplementary spatial information to conventional RGB images and have become more readily accessible thanks to the widespread availability of depth sensors. Recently, RGB-D based salient object detection has gained increasing attention, and various methods have been developed.
+
+<img src="https://github.com/dataset-ninja/rgbd-sod/assets/120389559/f5bde388-a2eb-49c8-93c2-33d8266cf8db" alt="image" width="800">
+
+<span style="font-size: smaller; font-style: italic;">RGB-D based salient object prediction on a sample image using two classical models: DCMC and SE, and seven state-of-the-art deep models: D3 Net, SSF, A2dele, S2 MA, ICNet, JL-DCF, and UC-Net</span>
