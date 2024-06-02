@@ -9,5 +9,3 @@ Salient object detection serves the purpose of identifying the most visually str
 <img src="https://github.com/dataset-ninja/rgbd-sod/assets/120389559/f5bde388-a2eb-49c8-93c2-33d8266cf8db" alt="image" width="800">
 
 <span style="font-size: smaller; font-style: italic;">RGB-D based salient object prediction on a sample image using two classical models: DCMC and SE, and seven state-of-the-art deep models: D3 Net, SSF, A2dele, S2 MA, ICNet, JL-DCF, and UC-Net</span>
-
-**Note:** Сlasses of the specified Russian road signs comply with [GOST](http://www.nppskmost.ru/files/GOST_P_52290_2004_1.pdf) requirements.
