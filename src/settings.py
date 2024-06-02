@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.Unknown()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SearchAndRescue()]
-CATEGORY: Category = Category.General()
+CATEGORY: Category = Category.General(is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [
     CVTask.SemanticSegmentation(),
