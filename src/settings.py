@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.Unknown()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SearchAndRescue()]
-CATEGORY: Category = Category.Science()
+CATEGORY: Category = Category.General()
 
 CV_TASKS: List[CVTask] = [
     CVTask.SemanticSegmentation(),
@@ -35,7 +35,7 @@ RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = 2020
 
-HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/thinhhuynh3108/rgbdsod-set1"
+HOMEPAGE_URL: str = "https://github.com/taozh2017/RGBD-SODsurvey"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 16504555
@@ -61,7 +61,9 @@ PAPER: Optional[Union[str, List[str], Dict[str, str]]] = (
     "https://link.springer.com/article/10.1007/s41095-020-0199-z"
 )
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "Kaggle": "https://www.kaggle.com/datasets/thinhhuynh3108/rgbdsod-set1"
+}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
@@ -84,7 +86,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__POSTTEXT__": "Additionally, every image marked with its ***im_id*** and ***subfolder*** tags"
+    "__POSTTEXT__": "Additionally, every image marked with its ***im_id*** and ***source_dataset*** tags"
 }
 TAGS: Optional[
     List[

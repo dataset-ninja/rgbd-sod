@@ -70,7 +70,7 @@ def convert_and_upload_supervisely_project(
         )
 
     obj_class = sly.ObjClass("salient object", sly.Bitmap)
-    tag_subfolder = sly.TagMeta("subfolder", sly.TagValueType.ANY_STRING)
+    tag_subfolder = sly.TagMeta("source_dataset", sly.TagValueType.ANY_STRING)
     tag_id = sly.TagMeta(group_tag_name, sly.TagValueType.ANY_STRING)
     project = api.project.create(workspace_id, project_name, change_name_if_conflict=True)
     meta = sly.ProjectMeta(obj_classes=[obj_class], tag_metas=[tag_subfolder, tag_id])
