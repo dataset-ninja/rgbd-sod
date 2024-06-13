@@ -1,4 +1,4 @@
-**RGB-D Salient Object Detection Dataset** is a dataset for semantic segmentation, monocular depth estimation, and object detection tasks. It is used in the search and rescue (SAR) industry. The dataset presented here is not the original one. Learn more on the dataset's homepage.
+**RGB-D SOD: RGB-Depth Salient Object Detection Dataset** is a dataset for semantic segmentation, monocular depth estimation, and object detection tasks. It is applicable or relevant across various domains. The dataset presented here is not the original one. Learn more on the dataset's homepage.
 
 The dataset consists of 38943 images with 34352 labeled objects belonging to 1 single class (*salient object*).
 
