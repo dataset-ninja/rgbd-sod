@@ -14,14 +14,14 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "RGBD-SOD"
-PROJECT_NAME_FULL: str = "RGB-D Salient Object Detection Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+PROJECT_NAME_FULL: str = "RGB-D SOD: RGB-Depth Salient Object Detection Dataset"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Unknown()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SearchAndRescue()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.General()]
 CATEGORY: Category = Category.General(is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [
